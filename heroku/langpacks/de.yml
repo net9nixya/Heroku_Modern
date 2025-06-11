@@ -409,7 +409,7 @@ api_protection:
 
 help:
   undoc: "🦥 Keine Beschreibung"
-  all_header: "<b>{} Module verfügbar, {} verborgen:</b>"
+  all_header: "<b>{} Module verfügbar, {} verborgen: (Heroku Modern)</b>"
   no_mod: "🚫 <b>Gib das Modul(-e) an, das(-e) versteckt werden soll(en)</b>"
   hidden_shown: "<b>{} Module verborgen, {} Module angezeigt:</b>\n{}\n{}"
   support: "{} <b>Link zum</b> <a href='https://t.me/heroku_talks'>Hilfe-Chat</a></b>"

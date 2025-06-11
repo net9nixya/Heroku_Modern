@@ -574,6 +574,7 @@ class Heroku:
         """Shows web banner"""
         logging.info("🔎 Web mode ready for configuration")
         logging.info("🔗 Please visit %s", self.web.url)
+        logging.info("🥰 Modern: @pystota_space")
 
     async def wait_for_web_auth(self, token: str) -> bool:
         """
@@ -596,7 +597,7 @@ class Heroku:
         phone = input(
             "\033[0;96mEnter phone: \033[0m"
             if self.arguments.tty
-            else "Enter phone: "
+            else "(Формат: +77777777777) Enter phone: "
         )
 
         await client.start(phone)

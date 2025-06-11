@@ -53,13 +53,13 @@ class TokenObtainment(InlineUnit):
                     pass
                 else:
                     uid = utils.rand(6)
-                    username = f"@heroku_{uid}_bot"
+                    username = f"@Heroku_Modern_{uid}_bot"
             else:
                 uid = utils.rand(6)
-                username = f"@heroku_{uid}_bot"
+                username = f"@Heroku_Modern_{uid}_bot"
 
             for msg in [
-                f"🪐 Heroku userbot"[:64],
+                f"🪐 Heroku Modern"[:64],
                 username,
                 "/setuserpic",
                 username,

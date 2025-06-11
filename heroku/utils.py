@@ -922,10 +922,10 @@ def get_named_platform() -> str:
         return "🍀 WSL"
 
     if main.IS_JAMHOST:
-        return "🧃 JamHost"
+        return "🧃 ЖамХост (JamHost)"
 
     if main.IS_USERLAND:
-        return "🐧 UserLand"
+        return "🐧 Пенгвен (UserLand)"
 
     if main.IS_AEZA:
         return "🛡 Aeza"

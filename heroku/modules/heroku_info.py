@@ -46,7 +46,7 @@ class HerokuInfoMod(loader.Module):
 
             loader.ConfigValue(
                 "banner_url",
-                "https://i.imgur.com/CB7Dgha.jpeg",
+                "https://imgur.com/a/7LBPJiq.png",
                 lambda: self.strings("_cfg_banner"),
             ),
 
@@ -142,7 +142,7 @@ class HerokuInfoMod(loader.Module):
             platform = platform.replace(emoji, icon)
         return (
             (
-                "🪐 Heroku\n"
+                "🪐 Heroku Modern\n"
                 if self.config["show_heroku"]
                 else ""
             )
