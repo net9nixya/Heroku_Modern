@@ -46,7 +46,7 @@ class HerokuInfoMod(loader.Module):
 
             loader.ConfigValue(
                 "banner_url",
-                "https://imgur.com/gallery/i-cast-oc-gs9oOVR",
+                "https://i.imgur.com/CB7Dgha.jpeg",
                 lambda: self.strings("_cfg_banner"),
             ),
 

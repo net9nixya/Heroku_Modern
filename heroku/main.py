@@ -834,6 +834,7 @@ class Heroku:
                 f"• Build: {build[:7]}\n"
                 f"• Version: {'.'.join(list(map(str, list(__version__))))}\n"
                 f"• {upd}\n"
+                f"• Модерн: @pystota_space\n"
             )
 
             if not self.omit_log:
