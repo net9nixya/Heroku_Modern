@@ -475,7 +475,7 @@ loader:
   bad_unicode: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Ungültige Modulkodierung</b>"
   load_failed: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Der Download war nicht erfolgreich. Siehe Logs.</b>"
   loaded: "<emoji document_id=5134452506935427991>🪐</emoji> <b>Modul</b> <code>{}</code>{} <b>wurde geladen {}</b>{}{}{}{}{}{}"
-  no_class: "<b>Was soll entladen werden?</b>"
+  no_class: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Fehler! Modul entladen: .ulm \"Name\" (ohne \"\\)"
   unloaded: "{} <b>Modul {} wurde entladen.</b>"
   not_unloaded: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Modul wurde nicht entladen.</b>"
   requirements_failed: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Fehler bei der Installation der Abhängigkeiten</b>"
